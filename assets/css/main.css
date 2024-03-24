@@ -2232,3 +2232,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 .registration-section {
   min-height: calc(100vh - 268px);
 }
+
+.register-text-container {
+  max-width: 640px;
+  margin: 0 auto;
+}

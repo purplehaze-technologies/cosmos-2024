@@ -76,7 +76,12 @@
         }, 600);
         return false;
       });
-
+      $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        // Get the parent container element
+        var container = $('.schedule-tab-content');
+        // Scroll the container to the top
+        container.scrollTop(0);
+      });
   });      
 
 }(jQuery));

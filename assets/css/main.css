@@ -2268,8 +2268,9 @@ a.back-to-top:focus {
 }
 
 .register-text-container {
-  max-width: 640px;
+  /* max-width: 640px; */
   margin: 0 auto;
+  margin-top: 10%;
 }
 
 
